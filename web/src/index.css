@@ -1,1 +1,13 @@
-@import "tailwindcss"
+@import "tailwindcss";
+ 
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf') format(TrueType);
+}
+
+@theme{
+  --font-Poppins: 'Poppins', sans-serif;
+
+  --color-LightGreen: rgba(81, 216, 117, 1);
+  --color-Mustard: rgba(197, 174, 45, 1);
+}
