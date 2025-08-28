@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router"
-import Home from "../pages/home/home"
+import HomePage from "../pages/home/index"
 import HowItWorks from "../pages/howitworks"
 import Merchandise from "../pages/merchs"
 import Donate from "../pages/donate"
 const route = createBrowserRouter([
   { path: "/", 
-    Component: Home  },
+    Component: HomePage  },
   {
     path: "/howitworks",
     Component: HowItWorks,

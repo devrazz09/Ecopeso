@@ -1,9 +1,9 @@
 import HeroSection from "./hero";
-const Home : React.FC = () => {
+const HomePage : React.FC = () => {
   return (
     <div className="h-dvh w-dvw pt-4">
       <HeroSection />
     </div>
   );
 }
-export default Home;
+export default HomePage;
